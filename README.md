@@ -1,6 +1,10 @@
 # wxchat
 个人微信消息处理
 
+## 运行环境
+操作系统：centos 7
+Python 3.7.4
+
 1. 拉取仓库代码
 ```bash
 git clone https://github.com/hmtiannan/wxchat.git
