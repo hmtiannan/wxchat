@@ -8,6 +8,7 @@ Python 3.7.4
 node v10.16.3
 ```
 
+## 执行步骤
 1. 拉取仓库代码
 ```bash
 git clone https://github.com/hmtiannan/wxchat.git
