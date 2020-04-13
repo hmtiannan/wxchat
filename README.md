@@ -19,6 +19,9 @@ git clone https://github.com/hmtiannan/wxchat.git
 ```bash
 npm install
 ```
+之前尝试用网页微信的接口，发现腾讯在2007年就关闭了网页微信，因此只能使用ipad协议的微信接口，这里引用了开源[wechaty](https://github.com/wechaty/wechaty.git)
+Wechaty是适用于微信个人的Bot SDK ，可以使用6行 js 创建一个机器人
+具有包括linux，Windows，MacOS和 Docker 在内的跨平台支持，基于Node.js
 
 3. 修改message/getnews.js下面一行，将地址改为自己配置的新闻接口（这里我自己用flask写了一个api，爬取第三方新闻）
 ```
@@ -49,6 +52,7 @@ module.exports = async bot => {
 ```bash
 node index.js
 ```
+运行后手机扫码登录微信
 
 7. 设置后台启动
 ```bash
