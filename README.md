@@ -22,8 +22,9 @@ npm install
 
 3. 修改message/getnews.js下面一行，将地址改为自己配置的新闻接口（这里我自己用flask写了一个api，爬取第三方新闻）
 ```
-const api = 'http://172.19.237.198:5000/news'
+const api = 'http://192.168.1.119:5000/news'
 ```
+![image](https://github.com/hmtiannan/wxchat/blob/master/demo_imgs/newsdemo.png)
 
 4. 修改config.js里面的token为wxchaty社区提供的token
 
