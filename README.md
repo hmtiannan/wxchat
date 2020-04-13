@@ -54,7 +54,7 @@ node index.js
 ```bash
 nohup node index.js >wxchat.log 2>&1 &
 ```
-8. 测试结果
+## 测试结果
 
 <img src="https://github.com/hmtiannan/wxchat/blob/master/demo_imgs/tpmytest.jpg" width = "250" width = "200"/>
 
