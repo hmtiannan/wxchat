@@ -16,7 +16,7 @@
     "wechaty-puppet-padplus": "^0.4.8"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "nodemon": "^2.0.2"
   }
 }
